@@ -3,11 +3,13 @@ import styled from 'styled-components';
 
 const App = () => {
   const Container = styled.section`
+    display: grid;
+    place-items: center;
     padding: 3em;
     border-radius: 4px;
     background: #282828;
   `;
-  const Title = styled.h1`
+  const Heading = styled.h1`
     font-size: 1.5em;
     text-align: center;
     color: mediumseagreen;
@@ -23,7 +25,7 @@ const App = () => {
   `;
   return (
     <Container>
-      <Title>Trying out Styled Components!</Title>
+      <Heading>Trying out Styled Components!</Heading>
       <Button href="https://www.google.com/">Click Me</Button>
     </Container>
   );
