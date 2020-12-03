@@ -12,9 +12,17 @@ const App = () => {
     text-align: center;
     color: mediumseagreen;
   `;
+  const Button = styled.button`
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-size: inherit;
+    background: #007fff;
+    color: #fff;
+  `;
   return (
     <Container>
       <Title>Trying out Styled Components!</Title>
+      <Button href="https://www.google.com/">Click Me</Button>
     </Container>
   );
 };
