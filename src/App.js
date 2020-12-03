@@ -14,10 +14,12 @@ const App = () => {
   `;
   const Button = styled.button`
     padding: 10px 15px;
+    border: none;
     border-radius: 3px;
     font-size: inherit;
     background: #007fff;
     color: #fff;
+    cursor: pointer;
   `;
   return (
     <Container>
